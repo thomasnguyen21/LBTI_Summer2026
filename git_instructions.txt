@@ -1,0 +1,12 @@
+1) Clone the repo to your local computer
+- Navigate to your target directory: cd
+- Run the clone command: git clone https://github.com/thomasnguyen21/LBTI_Summer2026.git
+
+2) Switch between main branch and your branch: git switch <branch-name>
+
+3) Upload files
+- Copy your files to clone folder
+- Switch to desired branch (see part #2)
+- Stage your files: git add .
+- Commit changes (PLEASE WRITE SOMETHING FOR THE MESSAGE!): git commit -m "Your message" 
+- Push to the remote directory: git push origin <branch-name>
