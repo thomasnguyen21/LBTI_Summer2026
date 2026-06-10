@@ -1,0 +1,11 @@
+1) Set up Git for Windows/MacOS
+2) Clone the repo: git clone https://github.com/mwanakijiji/dewarp.git
+3) Download text file from distortion code website
+4) Set up Anaconda
+5) Create an Anaconda environment with python 3.6: conda create -n <env_name> python=3.6
+6) Activate the environment: conda activate <env_name>
+
+(Inside your active Conda environment)
+7) Install a setuptools version older than 58.0.0: pip install "setuptools<58.0.0"
+8) Navigate to where the text file is: cd <path>
+8) Install required packages: pip install -r requirements.txt
