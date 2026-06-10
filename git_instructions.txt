@@ -1,6 +1,6 @@
 1) Clone the repo to your local computer
 - Navigate to your target directory: cd
-- Run the clone command: git clone https://github.com/thomasnguyen21/LBTI_Summer2026.git
+- Run the clone command: git clone -b <branch_name> https://github.com/thomasnguyen21/LBTI_Summer2026.git
 
 2) Switch between main branch and your branch: git switch <branch-name>
 
