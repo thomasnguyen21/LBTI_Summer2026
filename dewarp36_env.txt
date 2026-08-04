@@ -1,13 +1,15 @@
 # I created this file to recreate an environment in wsl (unubtu terminal) for use with the legacy dewarp code. 
-# There are a few remaining issues, with the main one being the installation of numpy 1.19 when 1.14.5 is needed.          # This can be resolved by running the following after the contents of this text file are installed:
+# There are a few remaining issues, with the main one being the installation of numpy 1.19 when 1.14.5 is needed.          
+# This can be resolved by running the following after the contents of this text file are installed:
 
 # pip install numpy==1.14.5
 # pip install --no-deps scipy==1.0.0
 # pip install gitpython==3.0.5
 # pip install gitdb2==2.0.6
 
-# To create or reinstall this environment in the wsl terminal run the following:
-# $ conda create --name <new_env> --file <this file>
+# To create or reinstall this environment in the wsl terminal run the following (make sure to make the file path WSL compatible aka not 
+the exact file path copied from the Windows folder app):
+# $ conda create --name <new_env> --file </mnt/c/path/to/this/file>
 # platform: linux-64
 # created-by: conda 26.3.2
 @EXPLICIT
